@@ -19,7 +19,7 @@ function myFunction(strs) {
     // console.log(index);
     dic[index] = [];
   }
-  // console.log(Object.keys(dic));
+
   for (const str of strs) {
     let strl = str[0].toLowerCase();
     dic[strl].push(str);
